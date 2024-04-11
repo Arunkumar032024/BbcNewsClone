@@ -1,0 +1,18 @@
+@media (max-width:767px) {
+    /* header section design  */
+    nav .nav-menu{
+        /* margin: 5px; */
+        overflow-y: auto;
+    }
+    nav .nav-menu::-webkit-scrollbar{
+        height: 0;
+    }
+    /* End header section design  */
+}
+@media (max-width:592px) {
+    /* header section design  */
+    header .right{
+        display: none;
+    }
+    /* End header section design  */
+}
