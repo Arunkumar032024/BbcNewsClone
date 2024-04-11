@@ -1,0 +1,3 @@
+# BBC News Clone
+<br>
+BBC News is a renowned global news organization providing comprehensive coverage of events from around the world. Established by the British Broadcasting Corporation (BBC), it offers a diverse range of reporting, spanning from breaking news to in-depth analysis across various topics including politics, business, technology, health, and culture. With a reputation for impartiality and accuracy, BBC News serves millions of viewers, listeners, and readers across television, radio, and online platforms, making it one of the most trusted sources of news worldwide.
