@@ -1,13 +1,23 @@
 @media (max-width:767px) {
     /* header section design  */
     nav .nav-menu{
-        /* margin: 5px; */
-        overflow-y: auto;
+        overflow-y: scroll;
     }
     nav .nav-menu::-webkit-scrollbar{
         height: 0;
     }
     /* End header section design  */
+
+    /* footer section design  */
+    footer ul,
+    footer .info ul{
+        overflow-y: scroll;
+    }
+    footer ul::-webkit-scrollbar,
+    footer .info ul::-webkit-scrollbar{
+        height: 0;
+    }
+    /* End footer section design  */
 }
 @media (max-width:592px) {
     /* header section design  */

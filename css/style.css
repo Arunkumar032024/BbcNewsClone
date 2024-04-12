@@ -151,4 +151,51 @@ nav .nav-link{
 /* End main section design  */
 
 /* footer section design  */
+footer{
+    width: 100%;
+    padding: 1rem 2rem;
+}
+footer h1 span{
+    font-size: 1.413rem;
+    line-height: 1.413rem;
+    color: var(--black-color);
+}
+footer ul{
+    display: flex;
+}
+footer ul li{
+    list-style: none;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+}
+footer ul li a{
+    text-decoration: none;
+    color: var(--black-color);
+    font-weight: 500;
+}
+footer ul li:hover a{
+    text-decoration: underline;
+}
+footer .select{
+    width: fit-content;
+    height: 40px;
+    padding: .413rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--light-white-color);
+    margin: 0.413rem 0;
+}
+footer .info{
+    border-top: 1px solid var(--light-white-color);
+}
+footer .info ul{
+    margin: .413rem 0;
+}
+footer .info ul li a{
+    font-weight: 400;
+}
+footer .info p{
+    font-weight: 400;
+}
 /* End footer section design  */
