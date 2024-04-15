@@ -1,3 +1,10 @@
+@media (max-width:992px) {
+    /* main section design */
+    .news .articles{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    /* end main section design */
+}
 @media (max-width:767px) {
     /* header section design  */
     nav .nav-menu{
@@ -7,6 +14,12 @@
         height: 0;
     }
     /* End header section design  */
+
+    /* main section design */
+    .news .articles{
+        grid-template-columns: 1fr 1fr;
+    }
+    /* end main section design */
 
     /* footer section design  */
     footer ul,
@@ -25,4 +38,10 @@
         display: none;
     }
     /* End header section design  */
+
+    /* main section design */
+    .news .articles{
+        grid-template-columns: 1fr;
+    }
+    /* end main section design */
 }

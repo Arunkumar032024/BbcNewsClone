@@ -61,7 +61,13 @@ i.fa-magnifying-glass:hover::after{
     color: var(--whtie-color);
     background-color: var(--black-color);
 }
-
+a{
+    text-decoration: none;
+    color:var(--light-black-color);
+}
+a:hover{
+    text-decoration: underline;
+}
 /* End custom css  */
 
 /* header section design  */
@@ -148,12 +154,52 @@ nav .nav-link{
 /* End header section design  */
 
 /* main section design  */
+.container{
+    width: 100%;
+    padding: 1rem;
+    /* background-color: red; */
+}
+
+.news{
+    width: 100%;
+    padding: 20px 10px;
+    border-top: 2px solid var(--black-color);
+    
+}
+.news h2{
+    font-weight: 500;
+}
+.news .articles{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 10px;
+}
+.news article{
+    padding: 10px;
+    cursor: pointer;
+}
+.news article h3{
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+.news article h3 a{
+    color: var(--black-color);
+}
+.news article p{
+    margin: 1rem 0;
+    font-size: 0.813rem;
+}
+.news article:hover a{
+    text-decoration: underline;
+}
 /* End main section design  */
 
 /* footer section design  */
 footer{
     width: 100%;
     padding: 1rem 2rem;
+    border-top: 1px solid var(--black-color);
 }
 footer h1 span{
     font-size: 1.413rem;
@@ -162,6 +208,7 @@ footer h1 span{
 }
 footer ul{
     display: flex;
+    margin: 1.5rem 0;
 }
 footer ul li{
     list-style: none;
@@ -188,9 +235,10 @@ footer .select{
 }
 footer .info{
     border-top: 1px solid var(--light-white-color);
+    margin: 1.5rem 0 4rem;
 }
 footer .info ul{
-    margin: .413rem 0;
+    margin: .413rem 0 1rem;
 }
 footer .info ul li a{
     font-weight: 400;
