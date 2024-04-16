@@ -159,12 +159,58 @@ nav .nav-link{
     padding: 1rem;
     /* background-color: red; */
 }
-
+.img-fluid{
+    width: 100%;
+}
+.news-large-1,
+.news-large-2{
+    width: 100%;
+    margin: 0.813rem 0;
+    display: grid;
+    gap: 10px;
+    cursor: pointer;
+}
+.news-large-1{
+    grid-template-columns: 1fr 400px;
+}
+.news-large-2{
+    grid-template-columns: 400px 1fr;
+}
+.news-large-1 .right,
+.news-large-2 .left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.news .title{
+    font-size: 1.813rem;
+}
+.news .desc{
+    color: var(--light-black-color);
+}
+.news .title a{
+    color: var(--black-color);
+}
+.news button{
+    padding: 15px 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border: 2px solid var(--black-color);
+    background-color: var(--whtie-color);
+    outline: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.news button:hover{
+    background-color: var(--black-color);
+    color: var(--whtie-color);
+}
 .news{
     width: 100%;
     padding: 20px 10px;
     border-top: 2px solid var(--black-color);
-    
 }
 .news h2{
     font-weight: 500;
@@ -192,6 +238,52 @@ nav .nav-link{
 }
 .news article:hover a{
     text-decoration: underline;
+}
+.news-grid-2,
+.news-grid-3{
+    width: 100%;
+    margin: 0.813rem 0;
+    display: grid;
+    gap: 10px;
+}
+.news-grid-2{
+    grid-template-columns: 1fr 1fr;
+}
+.news-grid-3{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.news-grid-2 h3{
+    margin-top: 0.625rem;
+}
+.news-grid-2 h3 a{
+    color: var(--black-color);
+}
+.news-grid-2 p{
+    margin: 0.625rem 0;
+}
+.home {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 10px;
+}
+.home-left{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+}
+.home article{
+    border-bottom: 1px solid var(--light-white-color);
+    margin-bottom: 10px;
+}
+.home article h3{
+    margin-top: 0.813rem;
+}
+.home article h3 a{
+    color: var(--black-color);
+}
+.home article p{
+    margin: 0.813rem 0;
 }
 /* End main section design  */
 
